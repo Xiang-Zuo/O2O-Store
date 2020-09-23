@@ -3,7 +3,7 @@ package com.TomorrowLand.o2o.entity;
 import java.util.Date;
 
 public class PersonInfo {
-	private Long userID;
+	private Long userId;
 	private String name;
 	private String profileImg;
 	private String email;
@@ -12,11 +12,12 @@ public class PersonInfo {
 	private Integer userTyep;
 	private Date createTiem;
 	private Date lastEditTiem;
-	public Long getUserID() {
-		return userID;
+	
+	public Long getUserId() {
+		return userId;
 	}
-	public void setUserID(Long userID) {
-		this.userID = userID;
+	public void setUserId(Long userId) {
+		this.userId = userId;
 	}
 	public String getName() {
 		return name;
